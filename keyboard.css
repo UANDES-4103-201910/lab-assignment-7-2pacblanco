@@ -1,3 +1,42 @@
 /* Define your CSS styles here */
+#kcontainer{
+    display: flex;
+    width: 100vw;
+    height: 40vw;
+    background-color: black;
+    flex-direction: column;
+    resize: both;
+    overflow: auto;
+    justify-content: center;
+}
+.key{
+    background: gray;
+    margin: 0 0.3%;
+    text-align: center;
+    color: white;
+    width: 6vw;
+    height: 100%;
+    line-height: 5vw;
+    font-size: 3vw;
+}
+.key:active{
+    background-color: white;
+}
+
+.row{
+    margin: 0.2% 0;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height:15vw;
+}
+.special-key{
+    width: 13%;
+    background-color: orange;
+}
+.spacekey{
+    width: 60%;
+}
+
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
